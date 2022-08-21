@@ -1,0 +1,30 @@
+*{
+    font-family:cursive;
+}
+
+h1 {
+    color: white;
+    background-color: black;
+    font-size: 40px;
+    
+}
+
+span { /*span hace que sólo la palabra "cloud" cambie de color*/
+    color: aqua;
+}
+
+h2 {
+    color: white;
+    background-color: rebeccapurple;
+    font-size: 35px;
+    font-style: italic;
+    text-align: center;
+}
+
+h3 {
+    color: rgb(1, 1, 29);
+    background-color: lightblue;
+    font-size: 30px;
+    text-decoration: underline;
+    text-align: right;
+}
