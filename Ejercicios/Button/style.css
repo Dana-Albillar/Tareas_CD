@@ -1,0 +1,38 @@
+.button-search, .button-add, .button-account {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.button-search {
+    color: cadetblue;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    background-color:whitesmoke;
+    border: 2px solid cadetblue;
+    border-radius: 35px;
+    height: 30px;
+    width: 140px;
+
+}
+
+.button-add {
+    color: white;
+    background-color: cadetblue;
+    font-size: 15px;
+    border: solid cadetblue;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+
+
+.button-account {
+    color: #ffffff;
+    background-color: rgb(73, 115, 229);
+    font-size: 17px;
+    border: 2px solid black; 
+    height: 40px;
+    width: 200px;
+    box-shadow: 5px 5px black;
+}
