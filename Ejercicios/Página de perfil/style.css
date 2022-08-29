@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Nav bar*/
+
+.nav{ /*ok*/
+    background-color: black;
+    overflow: hidden;
+    color: white;
+    font-family: 'Balsamiq Sans';
+    width: 100%;
+    height: 90px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.encabezado{ /*ok*/
+    margin-top: 28px;
+}
+
+.nav-title{ /*ok*/
+    margin-left: 270px;
+    margin-right: 5px;
+}
+
+.encabezado, .links{ /*ok*/
+    display: flex;
+    align-items: center;
+    list-style-type: none; /*le quita los puntitos a la lista*/
+}
+
+/* .links{
+    list-style-type: none; 
+} */
+
+/* ul{ 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}*/
+
+.links a{ /*ok*/
+    color: white;
+    margin-left: 20px; 
+    text-decoration: none; /*le quita la línea de hipervínculo*/
+}
+
+.links a.active { /*ok*/
+    color: white;
+    font-weight: bold;
+}
+
+.btn { /*ok*/
+    height: 30px;
+    width: 100px;
+    /* margin-right: 100px; */
+    margin-left: 195px;
+    color: white;
+    background-color: #17a2b8;
+    border: none;
+    font-family: 'Balsamiq Sans';
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.flex-container.main{ /*contenedor general*/ /*ok*/
+    align-items: flex-start;
+}
+
+.col-2{ /*ok*/
+    flex: 2;
+    margin-right: 20px;
+}
+
+/*Datos perfil*/
+
+.bloque1{ /*ok*/
+    width: 450px;
+    height: 85px;
+    background-color: #17a2b8;
+    display: flex;
+    margin-top: 40px;
+    margin-left: 270px;
+}
+
+.perfil{ /*ok*/
+    height: 90px;
+    width: 90px;
+    display: block;
+    margin-left: 30px;
+    margin-top: 35px;
+    border-style: solid;
+    border-color: lightgrey;
+    border-radius: 100%;
+}
+
+.usuario{ /*ok*/
+    border-radius: 50%;
+}
+
+.cuerpo{
+    width: 444px;
+    height: 220px;
+    border-style: solid;
+    border-color: lightgrey;
+    font-family: 'Balsamiq Sans';
+    margin-bottom: 30px;
+    margin-left: 270px;
+    /* padding: 20px;
+    margin: 20px 0px; */
+} 
+
+.cuerpo2{ /*ok*/
+    margin-top: 40px;
+    margin-left: 30px;    
+}
+
+/*Datos educación*/
+
+.bloque2{ /*ok*/
+    width: 450px;
+    height: 45px;
+    margin-left: 270px;
+    color: white;
+    background-color: #333333;
+    display: flex;
+    font-family: 'Balsamiq Sans';
+}
+
+h2{ /*ok*/
+    margin-left: 30px;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.cuerpo3{ /*ok*/
+    width: 444px;
+    height: 100px;
+    margin-left: 270px;
+    border-style: solid;
+    border-color: lightgrey;
+    font-family: 'Balsamiq Sans';
+}
+
+h3{ /*ok*/  
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+.fecha{ /*ok*/
+    color: #757575;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+.descripcion{
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+h4{ /*ok*/
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+/*Solicitudes*/
+
+.col-1 { /*ok*/
+    flex: 1;
+}
+
+.bloque3{ /*ok*/
+    width: 230px;
+    height: 65px;
+    color: white;
+    background-color: #333333;
+    margin-top: -492px;
+    margin-left: 740px;
+    font-family: 'Balsamiq Sans';
+}
+
+.cuerpo4{ /*ok*/
+    width: 224px;
+    height: 150px;
+    border-style: solid;
+    border-color: lightgrey;
+    font-family: 'Balsamiq Sans';
+    margin-left: 740px;    
+}
+
+.borde{ /*ok*/
+    display: flex;   
+}
+
+.circulo{ /*ok*/
+    border-radius: 20px;
+    background-color: lightgrey;
+    margin-top: 21px;
+    margin-left: 10px;
+    height: 25px;
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h4{ /*ok*/
+    margin-top: 24px;
+    margin-left: 20px;
+}
+
+.bloque4{ /*ok*/
+    width: 230px;
+    height: 65px;
+    color: white;
+    background-color: #333333;
+    margin-top: 20px;
+    margin-left: 740px;
+    font-family: 'Balsamiq Sans'; 
+}
+
+.borde2{ /*ok*/
+    display: flex;  
+}
+
+.circulo2{ /*ok*/
+    border-radius: 80px;
+    background-color: lightgrey;
+    height: 25px;
+    width: 55px;
+    margin-top: 19px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuerpo5{ /*ok*/
+    width: 224px;
+    height: 350px;
+    border-style: solid;
+    border-color: lightgrey;
+    font-family: 'Balsamiq Sans';
+    margin-left: 740px;
+    
+}
+
+.lista1{ /*ok*/
+    padding: 0 20px;
+    padding-top: 20px;
+    list-style-type: none;
+}
+
+.lista-usuarios, .lista-usuarios > * { /*alineación datos*/ /*ok*/
+    display: flex;
+    align-items: center;
+}
+
+.lista-usuarios{
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.lista-usuarios.start { /*alineación datos*/
+    justify-content: flex-start;
+}
+
+.usuario2, .icono{
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.icono{
+    height: 25px;
+}
+
+.icono,.btn { /*manito puntero*/ /*ok*/
+    cursor: pointer;
+}
+
+.card-footer{ /*ok*/
+    border-top: 3px solid lightgrey;
+    display: flex;
+    align-items: center;
+    padding: 17px;
+}
+
+
